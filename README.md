@@ -258,7 +258,7 @@ In Rails, the view path is automatically set to `app/cells/` or `app/concepts/`.
 
 ```ruby
 class CommentCell < Cell::ViewModel
-  self.view_paths = "lib/views"
+  self.view_paths = ["lib/views"]
 end
 ```
 
